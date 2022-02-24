@@ -1,0 +1,117 @@
+@import url("https://fonts.googleapis.com/css?family=Poppins:300,300i,400,400i,500,500i,600,600i,700,700i,800,800i,900,900i&display=swap");
+@import url("https://fonts.googleapis.com/css?family=Muli:200,200i,300,300i,400,400i,600,600i,700,700i,800,800i,900,900i");
+@import url("https://fonts.googleapis.com/css?family=Lobster+Two:400,400i,700,700i");
+@import url("https://fonts.googleapis.com/css2?family=Cookie&display=swap");
+body {
+  background-color: black;
+}
+
+header {
+  background-image: url(../img/bg1.jpg);
+  background-position: center;
+  background-size: cover;
+  position: relative;
+  border-bottom: 8px solid #222;
+}
+
+header nav .logo {
+  width: 50px;
+  border-radius: 50%;
+}
+
+header nav .lang-selection i {
+  z-index: 1;
+  top: 31%;
+  left: 0;
+}
+
+header nav .lang-selection i:last-of-type {
+  left: 69%;
+}
+
+header nav .lang-selection .form-select {
+  background-image: none;
+}
+
+header .overlay {
+  position: absolute;
+  top: 0;
+  left: 0;
+  height: 100%;
+  width: 100%;
+  background: -webkit-gradient(linear, left top, left bottom, from(rgba(0, 0, 0, 0.877)), to(transparent));
+  background: linear-gradient(rgba(0, 0, 0, 0.877), transparent);
+}
+
+header .heading {
+  padding: 160px 0;
+}
+
+header .heading h1 {
+  font-size: 3.125rem;
+}
+
+.injoy {
+  border-bottom: 8px solid #222;
+}
+
+.injoy .nav .nav-item .nav-link {
+  color: white;
+}
+
+.injoy .nav .nav-item .active {
+  color: black;
+  font-weight: 500;
+}
+
+.injoy .tab-content .tab-pane .card {
+  -webkit-box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.658);
+          box-shadow: 0 0 0.5rem rgba(255, 255, 255, 0.658);
+}
+
+.main-contact {
+  border-bottom: 8px solid #222;
+}
+
+.main-contact .contact-head {
+  margin-top: 25px;
+}
+
+.main-contact .contact-head h3 {
+  z-index: 2;
+  position: relative;
+}
+
+.main-contact .contact-head .overlay-1 {
+  top: 0;
+  bottom: 0;
+  opacity: .5;
+  background-color: black;
+  z-index: 1;
+}
+
+.main-contact .contact-info input[type=text], .main-contact .contact-info select, .main-contact .contact-info textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #ccc;
+  border-radius: 4px;
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 16px;
+  resize: vertical;
+}
+
+.main-contact .contact-info input[type=submit] {
+  background-color: #04AA6D;
+  color: white;
+  padding: 12px 20px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.main-contact .contact-info input[type=submit]:hover {
+  background-color: #45a049;
+}
+/*# sourceMappingURL=home.css.map */
